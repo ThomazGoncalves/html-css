@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Imagens que se comportam em tamanhos diferentes e em diferentes dispostivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/t-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/t-media.png" type="image/png">
+        <img src="imagens/t-grande.png" alt="imagem-flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="media/Sinister - Anno Domini Beats.mp3" controls autoplay></audio>
+    <audio preload="metadata" controls>
+        <source src="media/Free Me (Instrumental) - NEFFEX.mp3" type="audio/mpeg">
+    </audio>
+    <a href="media/Sinister - Anno Domini Beats.mp3" download="Sinister - Anno Domini Beats.mp3">Faça o download aqui</a>
+
+    
+</body>
+</html>

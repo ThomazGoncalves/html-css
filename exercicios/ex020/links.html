@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        /* 
+        
+        SELETORES PERSONALIZADOS 
+
+        #   = id
+        .   = class
+        :   = pseudo class
+        ::  = pseudo element
+        >   = children
+        
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline ;
+        }
+
+        a:active {
+            color: aqua;
+
+        }
+
+        li#yt::before {
+
+            content: '🎞️';
+            padding-right: 5px;
+
+        }
+
+        
+        li#insta::before {
+
+        content: '📷';
+        padding-right: 5px;
+
+        }
+
+        li#twi::before {
+            content: '🐤';
+            padding-right: 5px;
+   
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <a href="https://youtube.com" target="_blank">
+            <li id="yt">Youtube</li>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <li id="insta">Instagram</li>
+        </a>
+        <a href="https://twitter.com" target="blank">
+            <li id="twi">Twitter</li>
+        </a>
+    </ul>
+    
+</body>
+</html>

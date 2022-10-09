@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        .redonda {
+            display: inline-block;
+            border-radius: 100%;
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        div#b1 {
+            display: inline-block; 
+            background-color: orange;
+            width:100px;
+            height: 100px;
+
+        }
+
+        div#b2 {
+            display: block; 
+            background-color: rgb(122, 87, 21);
+            width:100px;
+            height: 100px;
+        }
+
+        div#b2:hover {
+            display: none;
+        }
+
+      
+      
+    </style>
+</head>
+<body>
+    <section>
+        <div class="redonda">
+            1
+        </div>
+        <div class="redonda">
+            2
+        </div>
+        <div class="redonda">
+            3
+        </div>
+        <div style="background-color: green; display: inline-block;">
+            teste
+    
+        </div> 
+    </section>  
+    <section>
+        <div class="redonda">
+            4
+        </div>
+        <div class="redonda">
+            5
+        </div>
+        <div class="redonda">
+            6
+        </div>
+    </section> 
+    <div id="b1">
+        primeira caixa
+    </div>
+    <div id="b2">
+        <p>clique aqui para aparecer</p>
+        
+    </div>
+</body>
+</html>

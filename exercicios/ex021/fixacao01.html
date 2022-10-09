@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixação 01</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            background-color: aliceblue;
+        }
+
+        h3#exemplo2 {
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-style: solid;
+            outline-style: double;
+            outline-color: red
+        }
+
+        a {
+            color: black;
+            background-color: aliceblue;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-style: solid;
+            outline-style: solid;
+            outline-color: red;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        h3#transformando {
+            display: inline-block;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-style: solid;
+        }
+
+        a#teste {
+            display: block;
+            background-color: aliceblue;
+            width: 300px;
+            height: 300px;
+            padding-top: 10px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Vamos fixar o que aprendemos</h1>
+    <h1>Box models</h1>
+    <h2>Box-level</h2>
+    <p>Uma box level é uma caixa que ocupa toda largura da tela, ela quebra a linha toda vez que inserida</p>
+    <h3>Um exemplo de box-level</h3>
+    <hr>
+    <h3 id="exemplo2">Mais um exemplo de box level personalizada</h3>
+    <hr>
+    <h2>Inline-level</h2>
+    <p>Uma Inline-level é uma caixa que ocupa um espaço automático e suas propriedades são ajustadas na própria linha</p>
+    <p>a tag <a href="#">&lta&gt</a> é um exemplo de uma box do tipo inline-level</p>
+    <hr>
+    <h2>Mudando a propriedade padrão de uma box</h2>
+    <em>
+        <p>Transformando uma box-level em uma inline-level, alterando as configurações de display para: <strong>'block'</strong></p>
+    </em>
+    <h3 id="transformando">Aqui está um exemplo de uma box-level transformada em inline-level</h3>
+    <em>
+        <p>Transformando uma inline-level em uma box-level, alterando as configurações de display para: <strong>'inline'</strong></p>
+    </em>
+    <a href="#" id="teste">&lta&gt</a>
+    <hr style="margin-bottom: 20px; margin-top: 20px;">
+
+    
+</body>
+</html>

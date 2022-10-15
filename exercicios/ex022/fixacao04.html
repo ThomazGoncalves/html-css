@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+        :root {
+            --fonte-padrao: 'Source Sans Pro', sans-serif;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        section {
+            color: white;
+            background-color: black;
+            background-image: url('imagens/iphone.png');
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 624px;
+        }
+
+        section > h1 {
+            font-family: var(--fonte-padrao);
+            font-size: 56px;
+            padding: 10px;
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        section > p {
+            font-family: var(--fonte-padrao);
+            font-size: 28px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        section  a {
+            color: #2997FF;
+            font-family: var(--fonte-padrao);
+            font-size: 21px;
+            font-weight: 400;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        
+        section  a::after {
+            content: ' >';
+ 
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <section>
+                <h1>iPhone 14 Pro</h1>
+                <p>Pro. E além.</p>
+                <nav>
+                    <a href="#">Saiba mais</a>
+                    <a href="#">Comprar</a>
+                </nav>
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>

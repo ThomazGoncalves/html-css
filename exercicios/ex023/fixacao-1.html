@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixação 1</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #tabela {
+            display: inline-block;
+            position: relative;
+            padding: 30px;
+         
+            left: 50vw;
+
+            transform: translate(-50%, 33vh);
+        }
+
+        table {
+            max-width: 400px;
+            min-width: 300px;
+            max-height: 200px;
+            min-height: 100px;
+            border: 1px black solid;  
+            background-color: antiquewhite;
+            border-collapse: collapse;
+
+        }
+
+        tr#linha1 {
+            background-color: aliceblue;
+            text-align: center;
+
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        tr#linha2 {
+            background-color: beige;
+            text-align: center;
+        }
+
+        tr#linha1 {
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 0.8em;
+            margin-bottom: 10px;
+            margin-left: -18px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="tabela">
+        <h1>Minha Segunda Tabela</h1>
+        <table>
+            <tr id="linha1">
+                <td>Nome</td>
+                <td>Data</td>
+                <td>Estado</td>
+            </tr>
+            <tr id="linha2">
+                <td>Thomaz</td>
+                <td>17/04</td>
+                <td>RJ</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

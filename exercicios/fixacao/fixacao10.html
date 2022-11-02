@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        div#caixaform {
+            border: 1px solid #3d9db34f;
+            position: absolute;
+            background-color: #f6f6f6;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 450px;
+            height: 372px;
+            border-radius: 16px;
+        }
+
+        div#intro {
+            margin-top: 15px;
+        }
+
+        h1 {
+            padding: 10px;
+            color: #086b75;
+            text-align: center;
+        }
+
+        label,p {
+            font-size: 13px;
+            display: block;
+            color: #3d9db3;
+        }
+
+        .campos {
+            margin: 43px;
+        }
+
+        .campos > label {
+            margin-top: 24px;
+            margin-bottom: 5px;
+        }
+
+        .campos > input[type=text] {
+            border: none;
+            border-radius: 5px;
+            border: solid 1px #ccc;
+            padding: 5px;
+            box-shadow: inset 0px 0px 3px black;
+        }
+
+        .campos > input[type=password] {
+            border: none;
+            border-radius: 5px;
+            border: solid 1px #ccc;
+            padding: 5px;
+            box-shadow: inset 0px 0px 3px black;
+        }
+
+        ::placeholder {
+            font-style: italic;
+        }
+
+        input[type=submit] {
+            margin-right: 6px;
+            margin-top: 24px;
+            width: 10px;
+            height: 10px;
+        }
+
+        #logar {
+            margin-top: 32px;
+            text-align: center;
+            background-color: #3d9db3;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #logar:hover {
+            background-color: #376f7c;
+        }
+
+        #logar > a {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="caixaform">
+        <div id="intro">
+            <h1>Login</h1>
+        </div>
+        <div class="campos">
+            <label for="iemail">Seu e-mail</label>
+            <input type="text" name="email" id="iemail" size="45" placeholder="contato@htmlecsspro.com">
+            <label for="isenha">Sua Senha</label>
+            <input type="password" name="Senha" id="isenha" size="45" placeholder="1234">
+            <p><input type="submit" value="">Manter-me logado</p>
+            <div id="logar">
+                <a href="">Logar</a>
+            </div>
+        </div>
+    
+</body>
+</html>

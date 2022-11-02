@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Um exemplo de um formulário</h1>
+
+    <h2>Usando um formulário com o método get</h2> <!--Os dados são passados para a URL-->
+    <form action="cadastros.php" method="get" autocomplete="off">
+        <p><label for="iname">Nome: </label>
+            <input type="text" name="name" id="iname">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Usando um formulário com o método post</h2> <!--Os dados são enviados para o navegador e não ficam salvos permanentemente-->
+    <form action="cadastros2.php" method="post" autocomplete="off">
+        <p><label for="inome2">Nome 2 </label>
+            <input type="text" name="nome2" id="inome2"></p>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

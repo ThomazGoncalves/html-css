@@ -10,10 +10,11 @@ body, html {
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(117, 114, 114);
 }
 
 header > h1 {
+    color: white;
     text-align: center;
     padding: 10px;
 }
@@ -40,19 +41,21 @@ menu > ul {
     list-style-type: none;
 }
 
-menu a {
-    display: block;
+menu li {
+    background-color: gray;
     padding: 10px;
-    text-decoration: none;
-    background-color: #504e4e;
     text-align: center;
     color: white;
     border-top: 2px solid gray;
 
 }
 
-menu a:hover {
-    background-color: gray;
+menu a {
+    text-decoration: none;
+}
+
+menu li:hover {
+    background-color: rgb(165, 162, 162);
 }
 
 main {

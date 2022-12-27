@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        #imensagem {
+            display: block;
+        }
+
+        fieldset {
+            width: 50%;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        @media (min-width: 800px) {
+            
+       #fo1 {
+            position: relative;
+            left: 30%;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="arquivos/cadastro.php">
+        <fieldset>
+        <div id="fo1">
+            <p>
+                <label for="itexto">Texto:</label>
+                <input type="text" name="texto" id="itexto">
+            </p>
+                <p>
+                <label for="imensagem">Mensagem:</label>
+                <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="Insira sua mensagem"></textarea>
+                </p>
+                <p>
+                <label for="cidades">Escolha uma cidade:</label><br>
+                <select name="cidades" id="cidades">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="bh" selected>Belo Horizonte</option>
+                    <option value="ct">Curitiba</option>
+                </select>
+                </p>
+                <p>
+                    <label for="cidades">Escolha uma cidade:</label><br>
+                    <select name="cidades" id="cidades">
+                        <option value="sp">São Paulo</option>
+                        <option value="rj" selected>Rio de Janeiro</option>
+                        <option value="bh">Belo Horizonte</option>
+                        <option value="ct">Curitiba</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
